@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -22,6 +23,7 @@ p {
 header {
   background-color:#D7DBDD;
   position: fixed;
+  height: 60px;
   top: 0;
   left: 0;
   right: 0;
@@ -31,4 +33,44 @@ header {
   display: inline-block;
   height: 60px;
   line-height: 60px;
+}
+
+.big_font {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 100px;
+  padding-top: 30px;
+  display: table-cell;
+  text-align: center;
+}
+
+.content_line {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2vw;
+  padding-left: 30px;
+}
+
+.div-parent {
+  display: table;
+  width: 100%;
+  padding: 30px;
+}
+
+.layer_1 {
+  display: table;
+  padding: 30px;
+  width: 50%;
+  height: 200px;
+}
+
+.layer_1_inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.layer_1_content {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 100px;
+  background-color: #D7DBDD;
+  border-radius: 100px;
 }
