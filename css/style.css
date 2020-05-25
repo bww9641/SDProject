@@ -35,26 +35,6 @@ header {
   line-height: 60px;
 }
 
-.big_font {
-  font-family: 'Exo 2', sans-serif;
-  font-size: 100px;
-  padding-top: 30px;
-  display: table-cell;
-  text-align: center;
-}
-
-.content_line {
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 2vw;
-  padding-left: 30px;
-}
-
-.div-parent {
-  display: table;
-  width: 100%;
-  padding: 30px;
-}
-
 .layer_1 {
   display: table;
   padding: 30px;
