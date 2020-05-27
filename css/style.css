@@ -54,3 +54,12 @@ header {
   background-color: #D7DBDD;
   border-radius: 100px;
 }
+
+.arrow {
+  text-align: center;
+  font-size: 30px;
+  position: fixed;
+  bottom: 30px;
+  border : dashed grey 1px;
+  width: 100%;
+}
