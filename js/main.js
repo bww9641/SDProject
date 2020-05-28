@@ -1,5 +1,5 @@
-function scrolltotwo(){
-    $('html, body').stop().animate({
+function(e) {
+    $('html, body').animate({
         scrollTop: $(window).height()
     }, 1200);
-}
+});

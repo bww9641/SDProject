@@ -27,6 +27,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .header_block {
@@ -40,6 +41,7 @@ header {
   padding: 30px;
   width: 50%;
   height: 200px;
+  z-index: 2;
 }
 
 .layer_1_inner {
@@ -63,3 +65,57 @@ header {
   border : dashed grey 1px;
   width: 100%;
 }
+
+.hero__scroll {
+  position: absolute;
+  bottom: 10px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  padding-bottom: 20px;
+  left: 0;
+  right: 0;
+  text-transform: uppercase;
+  border : 5px outset gray;
+  border-radius: 20px;
+}
+
+.hero__scroll .chevron {
+  margin-top: 20px;
+  margin-left: 85px;
+  display: block;
+  -webkit-animation: pulse 2s infinite;
+          animation: pulse 2s infinite;
+  color: rgb(89, 89, 90);
+}
+
+.chevron::before {
+  border-style: double;
+  border-width: 0.5em 0.5em 0 0;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  vertical-align: top;
+  width: 20px; }
+
+.chevron.bottom:before {
+  top: 0;
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg); }
+
+          @keyframes pulse {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+  50% {
+    -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px); }
+  100% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }
