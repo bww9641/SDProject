@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -119,3 +120,4 @@ header {
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); } }
+            
