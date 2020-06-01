@@ -53,9 +53,13 @@ header {
 
 .layer_1_content {
   font-family: 'Exo 2', sans-serif;
-  font-size: 100px;
+  font-size: 5rem;
   background-color: #D7DBDD;
   border-radius: 100px;
+}
+
+.layer_1_expression {
+  font-size:1.2rem;
 }
 
 .arrow {
@@ -70,7 +74,7 @@ header {
 .hero__scroll {
   position: absolute;
   bottom: 10px;
-  width: 200px;
+  width: 12.5rem;
   margin: auto;
   display: block;
   cursor: pointer;
